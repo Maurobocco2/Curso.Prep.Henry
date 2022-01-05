@@ -28,14 +28,14 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-return str
+  return str
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-return x + y;
+  return x + y;
 }
 
 function resta(x, y) {
@@ -60,12 +60,12 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-if(x == y){
-  return true;
-}
-else{ 
-  return false;
-}
+  if(x == y){
+    return true;
+  }
+  else{ 
+    return false;
+  }
 }
 
 
@@ -139,15 +139,12 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
   return Math.pow(num, 2);
- 
 }
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
  return Math.pow(num, 3);
-  
-  
 }
 
 function elevar(num, exponent) {
@@ -181,22 +178,20 @@ function esPositivo(numero) {
   //Si el número es 0, devuelve false
   if(numero > 0) {
    return"Es positivo";
- }
-else if(numero < 0) {
-  return"Es negativo";
-}
-else {
-  return false;
-}
+  }
+  else if(numero < 0) {
+    return"Es negativo";
+  }
+  else {
+    return false;
+  }
 }
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  
   return str + "!";
-  
 }
 
 function combinarNombres(nombre , apellido) {
@@ -204,24 +199,18 @@ function combinarNombres(nombre , apellido) {
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
   return nombre + " " + apellido;
-
- 
-
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-
-return "Hola " + nombre + "!";
-  
+  return "Hola " + nombre + "!";      
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
-  
  return alto * ancho; 
 }
 
@@ -236,9 +225,9 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-var x= base;
-var y= altura;
-return (base * altura)/2;
+  var x= base;
+  var y= altura;
+  return (base * altura)/2;
 }
 
 
@@ -250,7 +239,6 @@ function deEuroAdolar(euro){
 
 
 }
-
 
 function esVocal(letra){
   //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
@@ -266,12 +254,8 @@ function esVocal(letra){
   }
   else{
     return "Dato incorrecto"; 
-  } 
-  
-
-  
-  
-  }
+  }   
+}
 
 
 
